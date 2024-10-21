@@ -20,7 +20,7 @@
 
 [//]: # (    https://marketplace.zoom.us/)
     [Zoom Marketpalce Media](https://marketplace.zoom.us/ "Перейти на zoom marketpace")
-    [step1](./assets/step1)
+    ![step1](/assets/step1)
 
     перейти по ссылке, авторизироваться. 
     
