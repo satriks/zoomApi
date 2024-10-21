@@ -20,15 +20,39 @@
 
 [//]: # (    https://marketplace.zoom.us/)
     [Zoom Marketpalce Media](https://marketplace.zoom.us/ "Перейти на zoom marketpace")
-    ![step1](https://github.com/satriks/zoomApi/blob/assets/step1.png?raw=true)
-
 
     перейти по ссылке, авторизироваться. 
+    
+    Создать или использовать уже имещиеся приложение server to server
+    В scopes приложения добавить : 
+
+            * meeting:read:summary:admin
+            * meeting:read:list_summaries:admin          
+            * meeting:read:past_meeting:admin
+            * meeting:read:alert:admin
+            * meeting:read:meeting:admin
+            * meeting:read:list_meetings:admin
+            * meeting:write:meeting:admin
+            * meeting:write:meeting:master
+            * meeting:read:list_meetings:master
+
+
+    Добавить данные приложение в файл .env-example  переименовать в .env
+
+### Установить параметры создаваемой встречи 
+
+    self.meeting_param  установить параметры создаваемой встречи если потребуется. 
+
+### Запуск
+    
+    Создать обьект классa Meetings_Worker
+    Meetings_Worker.create_meeting  - создание встречи и запись в файл 
+    Meetings_Worker.get_meeteng_history - вывод встреч за последниее 7 дней в консоль 
+
+    
+
     
 
 
 
 
-### Настроить .env (Используя .env-example)
-
-Используя .env-example внести данные БД и хоста. Сохранить как .env
