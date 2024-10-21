@@ -47,7 +47,7 @@ class Meetings_Worker():
             print('Meeting не создан')
 
 
-    def get_meeteng_history(self):
+    def get_meeting_history(self):
         '''Получение прошедших встреч'''
 
         url = 'https://api.zoom.us/v2/users/me/meetings'
@@ -96,7 +96,7 @@ class Meetings_Worker():
 if __name__ == '__main__':
     worker = Meetings_Worker()
     worker.create_meeting()
-    worker.get_meeteng_history()
+    worker.get_meeting_history()
 
 
 

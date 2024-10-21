@@ -47,7 +47,7 @@
     
     Создать обьект классa Meetings_Worker
     Meetings_Worker.create_meeting  - создание встречи и запись в файл 
-    Meetings_Worker.get_meeteng_history - вывод встреч за последниее 7 дней в консоль 
+    Meetings_Worker.get_meeting_history - вывод встреч за последниее 7 дней в консоль 
 
     
 
