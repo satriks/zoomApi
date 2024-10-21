@@ -22,6 +22,7 @@
     [Zoom Marketpalce Media](https://marketplace.zoom.us/ "Перейти на zoom marketpace")
     ![step1](https://github.com/satriks/zoomApi/blob/assets/step1.png?raw=true)
 
+
     перейти по ссылке, авторизироваться. 
     
 
